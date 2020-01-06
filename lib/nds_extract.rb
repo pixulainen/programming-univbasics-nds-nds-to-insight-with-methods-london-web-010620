@@ -3,6 +3,7 @@ require 'directors_database'
 require 'pp'
 
 def directors_totals(nds)
+  pp nds
   result = {}
   director_index= 0 
     while director_index < nds.size do
